@@ -1,0 +1,82 @@
+# LLM Context File for Portfolio Site
+# URL: https://iamprashanthks.github.io/portfolio-2026/
+# Last updated: 2026-04-04
+
+## 1. Site Overview
+This is the personal portfolio website of **Prashanth ks** (GitHub: iamprashanthks). The site showcases his skills, projects, certificates, and technical expertise. It serves as a professional online presence for potential employers, collaborators, and clients.
+
+## 2. Site Structure & Navigation
+The portfolio is a single-page application (SPA) built with HTML, CSS, and vanilla JavaScript. Navigation is handled via anchor links that scroll to sections:
+
+- **Home / Hero** – Introduction and call-to-action.
+- **About** – Background, interests, and professional philosophy.
+- **Tech Stack** – Icons and names of technologies used (images stored in `/tech-stack` folder).
+- **Projects** – Cards with project descriptions, tech used, and links (GitHub / live demo).
+- **Certificates** – Thumbnails or links to certifications (stored in `/certificates` folder).
+- **Contact** – Email, social links (LinkedIn, GitHub, etc.), and maybe a contact form.
+
+Additional assets:
+- `/assets` – General images, icons, or downloadable files.
+- `/og-image` – Open Graph image for social media previews.
+- `/scripts` – JavaScript files (including minified `scripts.min.js`).
+- `styles.css` / `styles.min.css` – Main stylesheets.
+
+## 3. Technology Stack (used to build the site)
+- **HTML5** – Semantic markup.
+- **CSS3** – Custom styling with responsive design (Flexbox/Grid).
+- **JavaScript (ES6)** – Interactive elements (e.g., tab switching for Tech Stack, mobile menu, form validation).
+- **Minification** – `styles.min.css` and `scripts.min.js` for production.
+- **Hosting** – GitHub Pages (static hosting, automatic deployment from `main` branch).
+
+## 4. Key Content Sections
+
+### Tech Stack (images from `/tech-stack`)
+The tech stack section uses clickable tabs (or a grid) to display technology icons. Filenames (as per user's local setup) include:
+- `affinity-studio-icon.webp`
+- `github-6980894_960_720.webp`
+- `Linear-mobile-2024-10-04.webp`
+- `Visual_Studio_Code_1.35_icon.svg.png`
+(Other tech icons may be present – e.g., Python, JavaScript, React, etc. – depending on final content.)
+
+### Projects
+Each project card likely contains:
+- Project title
+- Short description
+- Tech badges
+- Links to GitHub repo and/or live demo
+
+### Certificates
+Thumbnails or PDF links of relevant certificates (stored in `/certificates`). Provide proof of skills (e.g., web development, cloud, design).
+
+## 5. Environment & Dependencies
+- **No backend or database** – fully static.
+- **No external CSS/JS frameworks** (pure vanilla) – fast and lightweight.
+- **Fonts** – Possibly Google Fonts or system fonts.
+- **Icons** – FontAwesome, SVG, or local image icons.
+
+## 6. Interaction Instructions for LLM
+When asked about this portfolio, you (the LLM) should:
+- Summarize the person’s professional identity as a developer/designer.
+- Extract and list technologies from the Tech Stack section.
+- Describe projects and certificates as shown on the site.
+- Provide the live URL and GitHub repo URL.
+- Suggest improvements or answer questions about how the site was built (if asked).
+
+Example user queries you can handle:
+- “What technologies does Prashanth know?”
+- “Show me his projects.”
+- “How can I contact him?”
+- “Tell me about the portfolio design.”
+
+## 7. Maintenance Notes
+- Update this file whenever the site structure or major content changes.
+- Keep the Tech Stack images properly named and located in `/tech-stack`.
+- Ensure all links (social, GitHub, demo) are working.
+- Minified assets should be regenerated after CSS/JS changes.
+
+## 8. Additional Metadata
+- **Author**: Prashanth ks
+- **GitHub repo**: https://github.com/iamprashanthks/portfolio-2026
+- **Site type**: Personal portfolio / resume website
+- **Primary audience**: Recruiters, tech leads, fellow developers
+- **Accessibility**: Basic ARIA labels, keyboard navigable, responsive.
