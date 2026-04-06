@@ -627,6 +627,48 @@ body {
   color: #111;
 }
 
+.about-card {
+  background: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 14px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-card h3 {
+  margin: 0 0 4px;
+  font-size: 22px;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  color: #111;
+}
+
+.about-card p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.75;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.82);
+}
+
+.about-card ul {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about-card li {
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.82);
+}
+
 .filled-btn {
   width: fit-content;
   display: inline-flex;
