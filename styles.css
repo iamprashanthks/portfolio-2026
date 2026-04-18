@@ -687,9 +687,10 @@ body {
 }
 
 .card {
-  background: var(--card-bg);
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 14px;
+  box-shadow: none;
   overflow: hidden;
 }
 
